@@ -1,10 +1,12 @@
 .bg {
-	background-color: #000000
+    background-color: #000000;
+    align-content: center;
     }
 #content { 
   	overflow: auto; 
     width: 600px;    
-  	background: white;
+    background: white;
+    margin: auto;  
 	} 
 
 #left, #right { 
