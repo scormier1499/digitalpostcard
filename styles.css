@@ -1,41 +1,56 @@
 .bg {
     background-color: #000000;
     align-content: center;
-    }
-#content { 
-  	overflow: auto; 
-    width: 600px;    
+}    
+#content {
+    overflow: auto;
+    display: flex;   
+    width: 600px;
     background: white;
-    margin: auto;  
-	} 
-
+    margin: auto;
+    justify-content: center;
+}
+.vertical-align{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
 #left, #right { 
   	width: 40%; 
   	margin:5px; 
   	padding: 1em; 
   	background: white; 
-	} 
-
+} 
 #left  {
 	float:left;
 	vertical-align: bottom;
-	}
+}
 #right {
     float:right;
     vertical-align: top;
-	} 
+}
 .title{
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
 	font-size: 40px;
-	}
+}
 .message{ 
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 18px;
-	}
+}
+.button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.logo {
+    display: flex;
+    justify-content: right;   
+}
 input[type=submit]{
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 16px;
-	}
+    font-size: 16px;
+}
 input[type=text] {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
     border: none;
@@ -43,7 +58,7 @@ input[type=text] {
     color: rgb(71, 69, 69);
     border-bottom: 1px solid #8C8C8C;
     padding-top: 10px;                       
-	}
+}
 input[type=email] {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
     border: none;
@@ -51,4 +66,4 @@ input[type=email] {
     color: rgb(71, 69, 69);
     border-bottom: 1px solid #8C8C8C;
     padding-top: 10px; 
-	}
+}
